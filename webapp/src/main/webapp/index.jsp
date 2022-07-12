@@ -4,7 +4,6 @@
     <h1>New user Register</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
-    <p>Inserisci i tuoi dati perfavore</p>
     <label for="Name"><b>Enter Name</b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
