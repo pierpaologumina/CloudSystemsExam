@@ -3,11 +3,11 @@
 
   tasks:
   - name: stop existing container
-    command: docer stop regapp-server
+    command: docker stop regapp-server
     ignore_errors: yes
 
   - name: remove the container
-    command: docer rm regapp-server
+    command: docker rm regapp-server
     ignore_errors: yes
 
   - name: remove image
@@ -15,4 +15,4 @@
     ignore_errors: yes
 
   - name: create container
-    command: doer run -d --name regapp-server -p 8082:8080 pierpaolodev/regapp:latest
+    command: docker run -d --name regapp-server -p 8082:8080 pierpaolodev/regapp:latest
