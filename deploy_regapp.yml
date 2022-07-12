@@ -1,5 +1,5 @@
 ---
-- hosts: dockerhost
+- hosts: dockerhos
 
   tasks:
   - name: stop existing container
